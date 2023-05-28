@@ -7,5 +7,6 @@ public class TiposPrimitivos {
 
     resposta =  (1<2) ? "sim" : "nao";
         System.out.println(resposta);
+        
     }
 }
