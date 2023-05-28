@@ -6,6 +6,5 @@ public class TesteTipos {
 
         String valor ="30.5";
         float idade = Float.parseFloat(valor);
-        System.out.println(idade);
-    }
+        System.out.printf("%.1f", idade);    }
 }
