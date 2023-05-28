@@ -4,7 +4,5 @@ public class TesteTipos {
         int idade = Integer.parseInt(valor);
         int resultado = 10 + idade;
         System.out.println((valor)+(idade+1));
-        if (true) {
-        }
     }
 }
