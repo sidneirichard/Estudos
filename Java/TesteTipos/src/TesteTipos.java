@@ -6,6 +6,6 @@ public class TesteTipos {
         System.out.println((valor)+(idade+1));
 
 
-        
+
     }
 }
