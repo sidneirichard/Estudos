@@ -1,4 +1,4 @@
-public class ComparaçãoString {
+public class ComparacaoString {
     public static void main(String[] args) {
         String nome1 = "Sidnei";
         String nome2 = "Sidnei";
