@@ -6,6 +6,7 @@ public class Vetor04 {
         Arrays.fill(v,0);  // usando arrays pra preecher o vetor com '0'
         for(int valor: v){
             System.out.print(valor+ " ");
+            
         }
     }
 }
