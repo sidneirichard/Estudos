@@ -1,10 +1,11 @@
-// ATRIBUTOS
+
     public class ContaBanco {
-    public int numConta;
-    protected String tipoConta;
-    private String Dono;
-    private float saldoConta;
-    private boolean status;
+        // ATRIBUTOS
+        public int numConta;
+        protected String tipoConta;
+        private String Dono;
+        private float saldoConta;
+        private boolean status;
 
     {
 
@@ -82,7 +83,7 @@
     }
 
     // Metodos especiais
-    public void ContaBanco(float saldoConta, boolean status) {
+    public ContaBanco() {
         this.setSaldoConta(0);
         this.setStatus(false);
     }
@@ -101,30 +102,25 @@
 
 
 
-        public void setTipoConta(String tc) {
-            this.tipoConta = tipoConta;
+    public void setTipoConta(String t) {
+        this.setTipoConta(t);
         }
 
         public String getDono() {
-            return Dono;
+            return getDono();
         }
-
         public void setDono(String dc){
             this.getDono();
         }
-
         public float getSaldoConta() {
             return saldoConta;
         }
-
         public void setSaldoConta(float saldoConta) {
             this.saldoConta = saldoConta;
         }
-
         public boolean isStatus() {
             return status;
         }
-
         public void setStatus(boolean status) {
             this.status = status;
         }
