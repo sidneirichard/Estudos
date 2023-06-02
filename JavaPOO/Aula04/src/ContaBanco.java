@@ -14,9 +14,9 @@
 
     public void estadoAtual() {
         System.out.println("----------------------------");
-        System.out.println("Conta: " + this.getNumConta());
-        System.out.println("Tipo: " + this.getTipoConta());
-        System.out.println("Usuário: " + this.getDono());
+        System.out.println("Nº da conta: " + this.getNumConta());
+        System.out.println("Conta tipo: " + this.getTipoConta());
+        System.out.println("Nome do usuário: " + this.getDono());
         System.out.println("Saldo da conta: " + this.getSaldoConta());
         System.out.println("Status da conta: " + this.isStatus());
     }
@@ -101,16 +101,15 @@
     }
 
 
-
     public void setTipoConta(String t) {
-        this.setTipoConta(t);
+        this.tipoConta = t;
         }
 
         public String getDono() {
-            return getDono();
+            return Dono;
         }
         public void setDono(String dc){
-            this.getDono();
+            this.Dono = dc;
         }
         public float getSaldoConta() {
             return saldoConta;
