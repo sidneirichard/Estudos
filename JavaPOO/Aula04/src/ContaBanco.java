@@ -24,9 +24,9 @@
     public void abrirConta(String t) {
         this.setTipoConta(t);
         this.setStatus(true);
-        if ("cc".equals(t)) {
+        if ("CC".equals(t)) {
             this.setSaldoConta(50f);
-        } else if ("cp".equals(t)) {
+        } else if ("CP".equals(t)) {
             this.setSaldoConta(150f);
         }
         System.out.println("Conta aberta com sucesso!");
