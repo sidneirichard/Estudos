@@ -2,7 +2,7 @@ public class Gafanhoto extends Pessoa{
     private String login;
     private int totAssistido;
 
-    public Gafanhoto(String nome, int idade, String sexo, String Login) {
+    public Gafanhoto(String nome, int idade, String sexo, String login) {
         super(nome, idade, sexo);
         this.login = login;
         this.totAssistido = 0;
@@ -12,8 +12,9 @@ public class Gafanhoto extends Pessoa{
         return login;
     }
 
-    public void setLogin(String login) {
+    public String setLogin(String login){
         this.login = login;
+        return login;
     }
 
     public int getTotAssistido() {
