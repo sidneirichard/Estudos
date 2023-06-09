@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3027c05-196c-45a3-b717-8e9dad1de2b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lobo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mamifero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basico/src/Soma.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basico/src/Soma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lobo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lobo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "AtomSettingsConfigurable"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
