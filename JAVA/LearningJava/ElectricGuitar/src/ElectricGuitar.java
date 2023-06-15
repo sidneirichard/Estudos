@@ -1,46 +1,48 @@
-public class ElectricGuitar {
-    public String brand;
-    public String color;
-    public int numString;
-    public boolean on = true;
+class ElectricGuitar {
+    String brand;
+    String color;
+    int numOfStrings;
+    boolean isOn;
 
-    public String getBrand(String b) {
+    void playIt(){
+        System.out.println("Playing a guitar of brand " + getBrand() + ", color " + getColor() + " and have " + numOfStrings + " strings");
+    }
+
+    public ElectricGuitar(String brand, String color, int numOfStrings) {
+        this.brand = brand;
+        this.color = color;
+        this.numOfStrings = numOfStrings;
+    }
+
+    public String getBrand() {
         return brand;
     }
 
-    public void setBrand(String b) {
-        this.brand = b;
+    public void setBrand(String aBrand) {
+        this.brand = aBrand;
     }
 
-    public String getColor(String c) {
-        return color = c;
+    public String getColor() {
+        return color;
     }
 
-    public void setColor(String c) {
-        this.color = c;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public int getNumString(int i) {
-        return i;
+    public int getNumOfStrings() {
+        return numOfStrings;
     }
 
-    public void setNumString(int numString) {
-        this.numString = numString;
+    public void setNumOfStrings(int numOfStrings) {
+        this.numOfStrings = numOfStrings;
     }
 
-    public boolean isOn(boolean on) {
-        return on;
+    public boolean isOn() {
+        return isOn;
     }
 
     public void setOn(boolean on) {
-        this.on = on;
-    }
-
-    public void turnOn(){
-        if(false){
-            this.isOn(true);
-        }else{
-            this.isOn(false);
-        }
+        isOn = on;
     }
 }
