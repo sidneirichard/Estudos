@@ -23,6 +23,7 @@ public class MovieTestDrive {
         three.title();
         three.genre();
         three.rating();
+
     }
 
 }

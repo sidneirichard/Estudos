@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Island {
+public class Island {
+    String islands;
+
 }

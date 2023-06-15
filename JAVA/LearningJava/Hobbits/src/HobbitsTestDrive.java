@@ -5,12 +5,12 @@ public class HobbitsTestDrive {
         while (z < 2) {
             z++;
             h[z] = new Hobbits();
-            h[z].name = "bilbo";
+            h[z].name = "Bilbo";
             if (z == 1) {
-                h[z].name = "frodo";
+                h[z].name = "Frodo";
             }
             if (z == 2) {
-                h[z].name = "sam";
+                h[z].name = "Sam";
             }
             System.out.println(h[z].name + " is a ");
             System.out.println("good Hobbit name");
