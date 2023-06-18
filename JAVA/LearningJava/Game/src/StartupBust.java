@@ -22,7 +22,7 @@ public class StartupBust {
 
         for (Startup startup : startups) {
             ArrayList<String> newLocation = helper.placeStartup(3);
-            startups.setLocationCells(newLocation);
+            startup.setLocationCells(newLocation);
         }
     }
 
