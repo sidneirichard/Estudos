@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Rowboat {
+public class Rowboat extends Boat {
+    public void rowTheBoat(){
+        System.out.print("stroke natasha");
+    }
 }
