@@ -7,11 +7,11 @@ public class StartupBust {
 
     private void setUpGame() {
         Startup one = new Startup();
-        one.setName("Poniez");
+        one.setName("poniez");
         Startup two = new Startup();
-        two.setName("Hacqi");
+        two.setName("hacqi");
         Startup three = new Startup();
-        three.setName("Cabista");
+        three.setName("cabista");
         startups.add(one);
         startups.add(two);
         startups.add(three);
