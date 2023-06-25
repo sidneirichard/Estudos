@@ -10,6 +10,7 @@ public class MockSongs {
         songs.add("havana");
         songs.add("Cassidy");
         songs.add("50 Ways");
+        songs.add("Bright Eyes");
         return songs;
     }
 }
