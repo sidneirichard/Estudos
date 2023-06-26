@@ -1,16 +1,14 @@
+import java.awt.*;
 import java.util.Collections;
-import java.util.List;
 
-public class Jukebox2 {
+public class Jukebox4 {
     public static void main(String[] args) {
-        new Jukebox2().go();
+        new Jukebox4().go();
     }
-
-    public void go() {
-        List<SongsV2> songsList = MockSongs.getSongsV2();
+    public void go(){
+        List<SongsV3> songsList = MockSongs.getSongsV2();
         System.out.println(songsList);
         Collections.sort(songsList);
         System.out.println(songsList);
-
     }
 }

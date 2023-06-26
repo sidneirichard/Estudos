@@ -1,7 +1,7 @@
-public class SongsV2 implements Comparable<SongsV2> {
-    private String title;
-    private String artist;
-    private int bpm;
+public class SongsV2 implements <SongsV2> {
+    private final String title;
+    private final String artist;
+    private final int bpm;
 
     SongsV2(String title, String artist, int bpm) {
         this.title = title;
@@ -30,5 +30,4 @@ public class SongsV2 implements Comparable<SongsV2> {
     public int compareTo(SongsV2 o) {
         return title.compareTo(o.getTitle());
     }
-
 }
