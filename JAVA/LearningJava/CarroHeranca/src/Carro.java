@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Carro {
+public class Carro extends Veiculo {
+    int rodas = 4;
+    int portas = 4;
 }

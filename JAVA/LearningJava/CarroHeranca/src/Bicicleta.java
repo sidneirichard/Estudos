@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Bicicleta {
+public class Bicicleta extends Veiculo {
+    int rodas = 2;
+    int pedal = 2;
 }
