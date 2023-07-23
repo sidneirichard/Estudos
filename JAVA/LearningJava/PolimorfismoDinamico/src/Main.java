@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Animal animal;
 
-        System.out.println("Que animal você quer?");
+        System.out.println("Escolha um animal");
         System.out.print("1 para cachorros ## 2 para gatos: ");
         int escolha = scanner.nextInt();
 
