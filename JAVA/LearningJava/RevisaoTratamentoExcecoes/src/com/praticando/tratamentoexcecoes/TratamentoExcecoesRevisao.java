@@ -3,13 +3,15 @@ package com.praticando.tratamentoexcecoes;
 public class TratamentoExcecoesRevisao {
     public static void main(String[] args) {
         try {
-            int resultado = dividir(10, 0);
-            System.out.println("Resultado: " + resultado);
-        } catch (ArithmeticException e) {
-            System.out.println("Erro: Divisão por zero não é permitida!");
+            int myInt = Integer.parseInt("brabo!");
+            System.out.println("Resultado: " + myInt);
         }
-    }
-    public static int dividir(int a, int b) {
-        return a / b;
+        catch (NumberFormatException e) {
+            System.out.println("Erro: Não dá pra fazer isso aí que vc " +
+                    "ta tentando...só pára man...\n");
+        }
+        finally {
+            System.out.println("Dentro do bloco 'finally'.");
+        }
     }
 }

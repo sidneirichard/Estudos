@@ -13,9 +13,11 @@ public class ExemploFinally {
             while((linha = bufferedReader.readLine()) != null) {
                 System.out.println(linha);
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             System.out.println("Erro ao ler o arquivo.");
-        } finally {
+        }
+        finally {
             try {
                 if(bufferedReader != null) {
                     bufferedReader.close();
